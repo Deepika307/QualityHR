@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">QualityHR Suite</th></tr>
+<tr><td><a href="#t0">Authentication Tests</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">70,129</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Employee Management Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">53,605</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Leave Management Tests</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">37,177</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">User Role Management Tests</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">36,724</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Form Validation Tests</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45,085</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">8</th><th class="num">0</th><th class="num">0</th><th class="num attn">4</th><th class="num">242,720</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">QualityHR Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Authentication Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.srm.qualityhr.tests.AuthTests</td><td><a href="#m0">verifyLoginScenarios</a></td><td rowspan="2">1776181108557</td><td rowspan="2">9754</td></tr><tr class="passedeven"><td><a href="#m1">verifyLoginScenarios</a></td></tr><tr class="passedeven"><td><a href="#m2">verifyLoginWithEmptyCredentialsShowsValidation</a></td><td rowspan="1">1776181136172</td><td rowspan="1">11683</td></tr><tr class="passedeven"><td><a href="#m3">verifyLogoutRedirectsToLoginPage</a></td><td rowspan="1">1776181150847</td><td rowspan="1">22870</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Employee Management Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.srm.qualityhr.tests.EmployeeManagementTests</td><td><a href="#m4">addSearchAndEditEmployeeRecord</a></td><td rowspan="1">1776181184591</td><td rowspan="1">24661</td></tr><tr><th colspan="4">Employee Management Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.srm.qualityhr.tests.EmployeeManagementTests</td><td><a href="#m5">searchWithInvalidEmployeeNameShowsNoResults</a></td><td rowspan="1">1776181219765</td><td rowspan="1">8418</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Leave Management Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.srm.qualityhr.tests.LeaveManagementTests</td><td><a href="#m6">applyingLeaveWithPastDatesShowsError</a></td><td rowspan="1">1776181238038</td><td rowspan="1">7174</td></tr><tr class="failedeven"><td><a href="#m7">navigateApplyLeaveAndVerifyRecord</a></td><td rowspan="1">1776181254921</td><td rowspan="1">10303</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">User Role Management Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.srm.qualityhr.tests.UserRoleManagementTests</td><td><a href="#m8">createVerifyAndDeleteSystemUser</a></td><td rowspan="1">1776181282205</td><td rowspan="1">17233</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Form Validation Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.srm.qualityhr.tests.FormValidationTests</td><td><a href="#m9">addEmployeeFormShowsMandatoryFieldErrors</a></td><td rowspan="1">1776181312482</td><td rowspan="1">5426</td></tr><tr class="passedeven"><td><a href="#m10">dropdownFieldsShowOptionsAndMyInfoModuleLoads</a></td><td rowspan="1">1776181327359</td><td rowspan="1">5872</td></tr><tr class="passedeven"><td><a href="#m11">invalidDateFormatShowsValidation</a></td><td rowspan="1">1776181341453</td><td rowspan="1">5853</td></tr></tbody>
+</table>
+<h2>Authentication Tests</h2><h3 id="m0">com.srm.qualityhr.tests.AuthTests#verifyLoginScenarios</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>valid-admin-login</td><td>Admin</td><td>admin123</td><td>true</td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.srm.qualityhr.tests.AuthTests#verifyLoginScenarios</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>invalid-password-login</td><td>Admin</td><td>wrongPassword123</td><td>false</td><td>Invalid credentials</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.srm.qualityhr.tests.AuthTests#verifyLoginWithEmptyCredentialsShowsValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.srm.qualityhr.tests.AuthTests#verifyLogoutRedirectsToLoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Employee Management Tests</h2><h3 id="m4">com.srm.qualityhr.tests.EmployeeManagementTests#addSearchAndEditEmployeeRecord</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Employee record opened with an unexpected name expected [John140426210949 QA] but found []
+	at com.srm.qualityhr.tests.EmployeeManagementTests.addSearchAndEditEmployeeRecord(EmployeeManagementTests.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.srm.qualityhr.tests.EmployeeManagementTests#searchWithInvalidEmployeeNameShowsNoResults</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Leave Management Tests</h2><h3 id="m6">com.srm.qualityhr.tests.LeaveManagementTests#applyingLeaveWithPastDatesShowsError</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5542ecd092029feff50d2475397a7173, sendKeysToElement {id=f.DF53CE878F27A22B746BFCCA2809D6F2.d.402CA22506791430DE22DE61BDA332C5.e.98, value=[Ljava.lang.CharSequence;@76828577}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55239}, goog:processID: 26188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55239/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5542ecd092029feff50d2475397a7173)] -&gt; xpath: //label[normalize-space()=&apos;Leave Type&apos;]/../following-sibling::div//div[contains(@class,&apos;oxd-select-text&apos;)]]
+Session ID: 5542ecd092029feff50d2475397a7173
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.srm.qualityhr.pages.BasePage.selectDropdownWithKeyboard(BasePage.java:102)
+	at com.srm.qualityhr.pages.LeavePage.applyLeave(LeavePage.java:46)
+	at com.srm.qualityhr.tests.LeaveManagementTests.applyingLeaveWithPastDatesShowsError(LeaveManagementTests.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.srm.qualityhr.tests.LeaveManagementTests#navigateApplyLeaveAndVerifyRecord</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96166c499ca0c2fe70782bed39f3d42f, sendKeysToElement {id=f.37DF523C2C6A06A65C5A5E6AAA177838.d.41EBDC678AA3ECC4B20869F24545FDAD.e.122, value=[Ljava.lang.CharSequence;@314f59b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50737}, goog:processID: 224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50737/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (96166c499ca0c2fe70782bed39f3d42f)] -&gt; xpath: //label[normalize-space()=&apos;Leave Type&apos;]/../following-sibling::div//div[contains(@class,&apos;oxd-select-text&apos;)]]
+Session ID: 96166c499ca0c2fe70782bed39f3d42f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.srm.qualityhr.pages.BasePage.selectDropdownWithKeyboard(BasePage.java:102)
+	at com.srm.qualityhr.pages.LeavePage.applyLeave(LeavePage.java:46)
+	at com.srm.qualityhr.tests.LeaveManagementTests.navigateApplyLeaveAndVerifyRecord(LeaveManagementTests.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>User Role Management Tests</h2><h3 id="m8">com.srm.qualityhr.tests.UserRoleManagementTests#createVerifyAndDeleteSystemUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98ada7d090d3525415d617e4106d2c09, sendKeysToElement {id=f.80409851DEB21123601BF2836722728F.d.085555999E102F34F851D0F342FBF769.e.196, value=[Ljava.lang.CharSequence;@4345fd45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54392}, goog:processID: 24348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54392/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (98ada7d090d3525415d617e4106d2c09)] -&gt; xpath: (//label[normalize-space()=&apos;User Role&apos;]/../following-sibling::div//div[contains(@class,&apos;oxd-select-text&apos;)])[1]]
+Session ID: 98ada7d090d3525415d617e4106d2c09
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.srm.qualityhr.pages.BasePage.selectDropdownWithKeyboard(BasePage.java:102)
+	at com.srm.qualityhr.pages.AdminPage.createSystemUser(AdminPage.java:38)
+	at com.srm.qualityhr.tests.UserRoleManagementTests.createVerifyAndDeleteSystemUser(UserRoleManagementTests.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Form Validation Tests</h2><h3 id="m9">com.srm.qualityhr.tests.FormValidationTests#addEmployeeFormShowsMandatoryFieldErrors</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.srm.qualityhr.tests.FormValidationTests#dropdownFieldsShowOptionsAndMyInfoModuleLoads</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.srm.qualityhr.tests.FormValidationTests#invalidDateFormatShowsValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

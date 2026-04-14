@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-QualityHR_Suite" class="navigator-link">
+              <span class="suite-name border-failed">QualityHR Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-QualityHR_Suite" class="navigator-link ">
+                    <span>E:\eclipse\eclipse\QualityHR\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-QualityHR_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-QualityHR_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-QualityHR_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-QualityHR_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-QualityHR_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-QualityHR_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 4 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-QualityHR_Suite" class="hide-methods failed suite-QualityHR_Suite"> (hide)</a> <!-- hide-methods failed suite-QualityHR_Suite -->
+                      <a href="#" panel-name="suite-QualityHR_Suite" class="show-methods failed suite-QualityHR_Suite"> (show)</a> <!-- show-methods failed suite-QualityHR_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-QualityHR_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.EmployeeManagementTests" class="method navigator-link" hash-for-method="addSearchAndEditEmployeeRecord">addSearchAndEditEmployeeRecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.LeaveManagementTests" class="method navigator-link" hash-for-method="applyingLeaveWithPastDatesShowsError">applyingLeaveWithPastDatesShowsError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.UserRoleManagementTests" class="method navigator-link" hash-for-method="createVerifyAndDeleteSystemUser">createVerifyAndDeleteSystemUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.LeaveManagementTests" class="method navigator-link" hash-for-method="navigateApplyLeaveAndVerifyRecord">navigateApplyLeaveAndVerifyRecord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-QualityHR_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-QualityHR_Suite" class="hide-methods passed suite-QualityHR_Suite"> (hide)</a> <!-- hide-methods passed suite-QualityHR_Suite -->
+                      <a href="#" panel-name="suite-QualityHR_Suite" class="show-methods passed suite-QualityHR_Suite"> (show)</a> <!-- show-methods passed suite-QualityHR_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-QualityHR_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.FormValidationTests" class="method navigator-link" hash-for-method="addEmployeeFormShowsMandatoryFieldErrors">addEmployeeFormShowsMandatoryFieldErrors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.FormValidationTests" class="method navigator-link" hash-for-method="dropdownFieldsShowOptionsAndMyInfoModuleLoads">dropdownFieldsShowOptionsAndMyInfoModuleLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.FormValidationTests" class="method navigator-link" hash-for-method="invalidDateFormatShowsValidation">invalidDateFormatShowsValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.EmployeeManagementTests" class="method navigator-link" hash-for-method="searchWithInvalidEmployeeNameShowsNoResults">searchWithInvalidEmployeeNameShowsNoResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.AuthTests" class="method navigator-link" hash-for-method="verifyLoginScenarios(valid-admin-login, Admin, admin123, true, )">verifyLoginScenarios(valid-admin-login, Admin, admin123, true, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.AuthTests" class="method navigator-link" hash-for-method="verifyLoginScenarios(invalid-password-login, Admin, wrongPassword123, false, Invalid credentials)">verifyLoginScenarios(invalid-password-login, Admin, wrongPassword123, false, Invalid credentials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.AuthTests" class="method navigator-link" hash-for-method="verifyLoginWithEmptyCredentialsShowsValidation">verifyLoginWithEmptyCredentialsShowsValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QualityHR_Suite" title="com.srm.qualityhr.tests.AuthTests" class="method navigator-link" hash-for-method="verifyLogoutRedirectsToLoginPage">verifyLogoutRedirectsToLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-QualityHR_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-QualityHR_Suite" class="panel QualityHR_Suite">
+          <div class="suite-QualityHR_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.srm.qualityhr.tests.EmployeeManagementTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addSearchAndEditEmployeeRecord">
+                  </a> <!-- addSearchAndEditEmployeeRecord -->
+                  <span class="method-name">addSearchAndEditEmployeeRecord</span>
+                  <div class="stack-trace">java.lang.AssertionError: Employee record opened with an unexpected name expected [John140426210949 QA] but found []
+	at com.srm.qualityhr.tests.EmployeeManagementTests.addSearchAndEditEmployeeRecord(EmployeeManagementTests.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QualityHR_Suite-class-failed -->
+          <div class="suite-QualityHR_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.srm.qualityhr.tests.UserRoleManagementTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createVerifyAndDeleteSystemUser">
+                  </a> <!-- createVerifyAndDeleteSystemUser -->
+                  <span class="method-name">createVerifyAndDeleteSystemUser</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98ada7d090d3525415d617e4106d2c09, sendKeysToElement {id=f.80409851DEB21123601BF2836722728F.d.085555999E102F34F851D0F342FBF769.e.196, value=[Ljava.lang.CharSequence;@4345fd45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54392}, goog:processID: 24348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54392/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (98ada7d090d3525415d617e4106d2c09)] -&gt; xpath: (//label[normalize-space()=&apos;User Role&apos;]/../following-sibling::div//div[contains(@class,&apos;oxd-select-text&apos;)])[1]]
+Session ID: 98ada7d090d3525415d617e4106d2c09
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.srm.qualityhr.pages.BasePage.selectDropdownWithKeyboard(BasePage.java:102)
+	at com.srm.qualityhr.pages.AdminPage.createSystemUser(AdminPage.java:38)
+	at com.srm.qualityhr.tests.UserRoleManagementTests.createVerifyAndDeleteSystemUser(UserRoleManagementTests.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QualityHR_Suite-class-failed -->
+          <div class="suite-QualityHR_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.srm.qualityhr.tests.LeaveManagementTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyingLeaveWithPastDatesShowsError">
+                  </a> <!-- applyingLeaveWithPastDatesShowsError -->
+                  <span class="method-name">applyingLeaveWithPastDatesShowsError</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5542ecd092029feff50d2475397a7173, sendKeysToElement {id=f.DF53CE878F27A22B746BFCCA2809D6F2.d.402CA22506791430DE22DE61BDA332C5.e.98, value=[Ljava.lang.CharSequence;@76828577}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55239}, goog:processID: 26188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55239/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5542ecd092029feff50d2475397a7173)] -&gt; xpath: //label[normalize-space()=&apos;Leave Type&apos;]/../following-sibling::div//div[contains(@class,&apos;oxd-select-text&apos;)]]
+Session ID: 5542ecd092029feff50d2475397a7173
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.srm.qualityhr.pages.BasePage.selectDropdownWithKeyboard(BasePage.java:102)
+	at com.srm.qualityhr.pages.LeavePage.applyLeave(LeavePage.java:46)
+	at com.srm.qualityhr.tests.LeaveManagementTests.applyingLeaveWithPastDatesShowsError(LeaveManagementTests.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateApplyLeaveAndVerifyRecord">
+                  </a> <!-- navigateApplyLeaveAndVerifyRecord -->
+                  <span class="method-name">navigateApplyLeaveAndVerifyRecord</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96166c499ca0c2fe70782bed39f3d42f, sendKeysToElement {id=f.37DF523C2C6A06A65C5A5E6AAA177838.d.41EBDC678AA3ECC4B20869F24545FDAD.e.122, value=[Ljava.lang.CharSequence;@314f59b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50737}, goog:processID: 224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50737/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (96166c499ca0c2fe70782bed39f3d42f)] -&gt; xpath: //label[normalize-space()=&apos;Leave Type&apos;]/../following-sibling::div//div[contains(@class,&apos;oxd-select-text&apos;)]]
+Session ID: 96166c499ca0c2fe70782bed39f3d42f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.srm.qualityhr.pages.BasePage.selectDropdownWithKeyboard(BasePage.java:102)
+	at com.srm.qualityhr.pages.LeavePage.applyLeave(LeavePage.java:46)
+	at com.srm.qualityhr.tests.LeaveManagementTests.navigateApplyLeaveAndVerifyRecord(LeaveManagementTests.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QualityHR_Suite-class-failed -->
+          <div class="suite-QualityHR_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.srm.qualityhr.tests.FormValidationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmployeeFormShowsMandatoryFieldErrors">
+                  </a> <!-- addEmployeeFormShowsMandatoryFieldErrors -->
+                  <span class="method-name">addEmployeeFormShowsMandatoryFieldErrors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdownFieldsShowOptionsAndMyInfoModuleLoads">
+                  </a> <!-- dropdownFieldsShowOptionsAndMyInfoModuleLoads -->
+                  <span class="method-name">dropdownFieldsShowOptionsAndMyInfoModuleLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidDateFormatShowsValidation">
+                  </a> <!-- invalidDateFormatShowsValidation -->
+                  <span class="method-name">invalidDateFormatShowsValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QualityHR_Suite-class-passed -->
+          <div class="suite-QualityHR_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.srm.qualityhr.tests.EmployeeManagementTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchWithInvalidEmployeeNameShowsNoResults">
+                  </a> <!-- searchWithInvalidEmployeeNameShowsNoResults -->
+                  <span class="method-name">searchWithInvalidEmployeeNameShowsNoResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QualityHR_Suite-class-passed -->
+          <div class="suite-QualityHR_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.srm.qualityhr.tests.AuthTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginScenarios(valid-admin-login, Admin, admin123, true, )">
+                  </a> <!-- verifyLoginScenarios(valid-admin-login, Admin, admin123, true, ) -->
+                  <span class="method-name">verifyLoginScenarios</span>
+                  <span class="parameters">(valid-admin-login,Admin,admin123,true,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginScenarios(invalid-password-login, Admin, wrongPassword123, false, Invalid credentials)">
+                  </a> <!-- verifyLoginScenarios(invalid-password-login, Admin, wrongPassword123, false, Invalid credentials) -->
+                  <span class="method-name">verifyLoginScenarios</span>
+                  <span class="parameters">(invalid-password-login,Admin,wrongPassword123,false,Invalid credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithEmptyCredentialsShowsValidation">
+                  </a> <!-- verifyLoginWithEmptyCredentialsShowsValidation -->
+                  <span class="method-name">verifyLoginWithEmptyCredentialsShowsValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutRedirectsToLoginPage">
+                  </a> <!-- verifyLogoutRedirectsToLoginPage -->
+                  <span class="method-name">verifyLogoutRedirectsToLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QualityHR_Suite-class-passed -->
+        </div> <!-- panel QualityHR_Suite -->
+        <div panel-name="test-xml-QualityHR_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\eclipse\eclipse\QualityHR\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;QualityHR Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.srm.qualityhr.listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Authentication Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.srm.qualityhr.tests.AuthTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Authentication Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Employee Management Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.srm.qualityhr.tests.EmployeeManagementTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Employee Management Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Leave Management Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.srm.qualityhr.tests.LeaveManagementTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Leave Management Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;User Role Management Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.srm.qualityhr.tests.UserRoleManagementTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- User Role Management Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Form Validation Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.srm.qualityhr.tests.FormValidationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Form Validation Tests --&gt;
+&lt;/suite&gt; &lt;!-- QualityHR Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QualityHR_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QualityHR Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Authentication Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Employee Management Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Leave Management Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">User Role Management Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Form Validation Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QualityHR_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QualityHR Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QualityHR_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QualityHR Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QualityHR_Suite');
+function tableData_QualityHR_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addSearchAndEditEmployeeRecord')
+data.setCell(0, 2, 'com.srm.qualityhr.tests.EmployeeManagementTests')
+data.setCell(0, 3, 24661);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLogoutRedirectsToLoginPage')
+data.setCell(1, 2, 'com.srm.qualityhr.tests.AuthTests')
+data.setCell(1, 3, 22870);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createVerifyAndDeleteSystemUser')
+data.setCell(2, 2, 'com.srm.qualityhr.tests.UserRoleManagementTests')
+data.setCell(2, 3, 17233);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLoginScenarios')
+data.setCell(3, 2, 'com.srm.qualityhr.tests.AuthTests')
+data.setCell(3, 3, 14887);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLoginWithEmptyCredentialsShowsValidation')
+data.setCell(4, 2, 'com.srm.qualityhr.tests.AuthTests')
+data.setCell(4, 3, 11683);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'navigateApplyLeaveAndVerifyRecord')
+data.setCell(5, 2, 'com.srm.qualityhr.tests.LeaveManagementTests')
+data.setCell(5, 3, 10303);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginScenarios')
+data.setCell(6, 2, 'com.srm.qualityhr.tests.AuthTests')
+data.setCell(6, 3, 9754);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchWithInvalidEmployeeNameShowsNoResults')
+data.setCell(7, 2, 'com.srm.qualityhr.tests.EmployeeManagementTests')
+data.setCell(7, 3, 8418);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'applyingLeaveWithPastDatesShowsError')
+data.setCell(8, 2, 'com.srm.qualityhr.tests.LeaveManagementTests')
+data.setCell(8, 3, 7174);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'dropdownFieldsShowOptionsAndMyInfoModuleLoads')
+data.setCell(9, 2, 'com.srm.qualityhr.tests.FormValidationTests')
+data.setCell(9, 3, 5872);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'invalidDateFormatShowsValidation')
+data.setCell(10, 2, 'com.srm.qualityhr.tests.FormValidationTests')
+data.setCell(10, 3, 5853);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addEmployeeFormShowsMandatoryFieldErrors')
+data.setCell(11, 2, 'com.srm.qualityhr.tests.FormValidationTests')
+data.setCell(11, 3, 5426);
+window.suiteTableData['QualityHR_Suite']= { tableData: data, tableDiv: 'times-div-QualityHR_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-QualityHR_Suite">
+              </div> <!-- times-div-QualityHR_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QualityHR_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QualityHR Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QualityHR_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QualityHR_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.qualityhr.tests.AuthTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginScenarios(valid-admin-login, Admin, admin123, true, )</span>
+                <span class="method-start">3416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13181 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13496 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginScenarios(invalid-password-login, Admin, wrongPassword123, false, Invalid credentials)</span>
+                <span class="method-start">14745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29635 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29944 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithEmptyCredentialsShowsValidation</span>
+                <span class="method-start">31031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42717 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44516 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutRedirectsToLoginPage</span>
+                <span class="method-start">45706 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68580 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.qualityhr.tests.EmployeeManagementTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">69699 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">70882 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addSearchAndEditEmployeeRecord</span>
+                <span class="method-start">79450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">104388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">104788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">105967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchWithInvalidEmployeeNameShowsNoResults</span>
+                <span class="method-start">114624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123045 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.qualityhr.tests.LeaveManagementTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">123381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">124364 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">applyingLeaveWithPastDatesShowsError</span>
+                <span class="method-start">132897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">140516 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">141498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">navigateApplyLeaveAndVerifyRecord</span>
+                <span class="method-start">149780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">160260 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.qualityhr.tests.UserRoleManagementTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">160618 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">161776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createVerifyAndDeleteSystemUser</span>
+                <span class="method-start">177064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">194651 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.srm.qualityhr.tests.FormValidationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">197405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">198629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addEmployeeFormShowsMandatoryFieldErrors</span>
+                <span class="method-start">207341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">213061 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">214199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dropdownFieldsShowOptionsAndMyInfoModuleLoads</span>
+                <span class="method-start">222218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">228092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">228373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">229438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidDateFormatShowsValidation</span>
+                <span class="method-start">236312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">242166 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

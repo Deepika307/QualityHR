@@ -1,0 +1,16 @@
+[
+  {
+    "scenario": "valid-admin-login",
+    "usernameKey": "admin.username",
+    "passwordKey": "admin.password",
+    "valid": true,
+    "expectedMessage": ""
+  },
+  {
+    "scenario": "invalid-password-login",
+    "usernameKey": "invalid.username",
+    "passwordKey": "invalid.password",
+    "valid": false,
+    "expectedMessage": "Invalid credentials"
+  }
+]

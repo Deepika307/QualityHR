@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="8" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-14T21:08:24 IST" name="QualityHR Suite" finished-at="2026-04-14T21:12:27 IST" duration-ms="243579">
+    <groups>
+    </groups>
+    <test started-at="2026-04-14T21:08:24 IST" name="Authentication Tests" finished-at="2026-04-14T21:09:34 IST" duration-ms="70129">
+      <class name="com.srm.qualityhr.tests.AuthTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:08:25 IST" name="setUp" finished-at="2026-04-14T21:08:28 IST" duration-ms="3414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:08:28 IST" name="verifyLoginScenarios" data-provider="loginData" finished-at="2026-04-14T21:08:38 IST" duration-ms="9754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid-admin-login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:08:38 IST" name="tearDown" finished-at="2026-04-14T21:08:38 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:08:38 IST" name="setUp" finished-at="2026-04-14T21:08:39 IST" duration-ms="1248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:08:39 IST" name="verifyLoginScenarios" data-provider="loginData" finished-at="2026-04-14T21:08:54 IST" duration-ms="14887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-password-login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:08:54 IST" name="tearDown" finished-at="2026-04-14T21:08:55 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:08:55 IST" name="setUp" finished-at="2026-04-14T21:08:56 IST" duration-ms="1086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithEmptyCredentialsShowsValidation()[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:08:56 IST" name="verifyLoginWithEmptyCredentialsShowsValidation" finished-at="2026-04-14T21:09:07 IST" duration-ms="11683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithEmptyCredentialsShowsValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:09:07 IST" name="tearDown" finished-at="2026-04-14T21:09:09 IST" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:09:09 IST" name="setUp" finished-at="2026-04-14T21:09:10 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutRedirectsToLoginPage()[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:09:10 IST" name="verifyLogoutRedirectsToLoginPage" finished-at="2026-04-14T21:09:33 IST" duration-ms="22870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutRedirectsToLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.AuthTests@639c2c1d]" started-at="2026-04-14T21:09:33 IST" name="tearDown" finished-at="2026-04-14T21:09:34 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.qualityhr.tests.AuthTests -->
+    </test> <!-- Authentication Tests -->
+    <test started-at="2026-04-14T21:09:34 IST" name="Employee Management Tests" finished-at="2026-04-14T21:10:28 IST" duration-ms="53605">
+      <class name="com.srm.qualityhr.tests.EmployeeManagementTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.EmployeeManagementTests@2df3b89c]" started-at="2026-04-14T21:09:34 IST" name="setUp" finished-at="2026-04-14T21:09:36 IST" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.srm.qualityhr.tests.EmployeeManagementTests@2df3b89c]" started-at="2026-04-14T21:09:36 IST" name="loginToApplication" finished-at="2026-04-14T21:09:44 IST" duration-ms="8568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="addSearchAndEditEmployeeRecord()[pri:0, instance:com.srm.qualityhr.tests.EmployeeManagementTests@2df3b89c]" started-at="2026-04-14T21:09:44 IST" name="addSearchAndEditEmployeeRecord" finished-at="2026-04-14T21:10:09 IST" duration-ms="24661" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Employee record opened with an unexpected name expected [John140426210949 QA] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Employee record opened with an unexpected name expected [John140426210949 QA] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.srm.qualityhr.tests.EmployeeManagementTests.addSearchAndEditEmployeeRecord(EmployeeManagementTests.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSearchAndEditEmployeeRecord -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.EmployeeManagementTests@2df3b89c]" started-at="2026-04-14T21:10:09 IST" name="tearDown" finished-at="2026-04-14T21:10:09 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.EmployeeManagementTests@2df3b89c]" started-at="2026-04-14T21:10:09 IST" name="setUp" finished-at="2026-04-14T21:10:11 IST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.srm.qualityhr.tests.EmployeeManagementTests@2df3b89c]" started-at="2026-04-14T21:10:11 IST" name="loginToApplication" finished-at="2026-04-14T21:10:19 IST" duration-ms="8657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="searchWithInvalidEmployeeNameShowsNoResults()[pri:0, instance:com.srm.qualityhr.tests.EmployeeManagementTests@2df3b89c]" started-at="2026-04-14T21:10:19 IST" name="searchWithInvalidEmployeeNameShowsNoResults" finished-at="2026-04-14T21:10:28 IST" duration-ms="8418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithInvalidEmployeeNameShowsNoResults -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.EmployeeManagementTests@2df3b89c]" started-at="2026-04-14T21:10:28 IST" name="tearDown" finished-at="2026-04-14T21:10:28 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.qualityhr.tests.EmployeeManagementTests -->
+    </test> <!-- Employee Management Tests -->
+    <test started-at="2026-04-14T21:10:28 IST" name="Leave Management Tests" finished-at="2026-04-14T21:11:05 IST" duration-ms="37177">
+      <class name="com.srm.qualityhr.tests.LeaveManagementTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.LeaveManagementTests@bccb269]" started-at="2026-04-14T21:10:28 IST" name="setUp" finished-at="2026-04-14T21:10:29 IST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.srm.qualityhr.tests.LeaveManagementTests@bccb269]" started-at="2026-04-14T21:10:29 IST" name="loginToApplication" finished-at="2026-04-14T21:10:38 IST" duration-ms="8533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="applyingLeaveWithPastDatesShowsError()[pri:0, instance:com.srm.qualityhr.tests.LeaveManagementTests@bccb269]" started-at="2026-04-14T21:10:38 IST" name="applyingLeaveWithPastDatesShowsError" finished-at="2026-04-14T21:10:45 IST" duration-ms="7174" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5542ecd092029feff50d2475397a7173, sendKeysToElement {id=f.DF53CE878F27A22B746BFCCA2809D6F2.d.402CA22506791430DE22DE61BDA332C5.e.98, value=[Ljava.lang.CharSequence;@76828577}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55239}, goog:processID: 26188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55239/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5542ecd092029feff50d2475397a7173)] -> xpath: //label[normalize-space()='Leave Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]]
+Session ID: 5542ecd092029feff50d2475397a7173]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5542ecd092029feff50d2475397a7173, sendKeysToElement {id=f.DF53CE878F27A22B746BFCCA2809D6F2.d.402CA22506791430DE22DE61BDA332C5.e.98, value=[Ljava.lang.CharSequence;@76828577}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55239}, goog:processID: 26188, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55239/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5542ecd092029feff50d2475397a7173)] -> xpath: //label[normalize-space()='Leave Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]]
+Session ID: 5542ecd092029feff50d2475397a7173
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at com.srm.qualityhr.pages.BasePage.selectDropdownWithKeyboard(BasePage.java:102)
+at com.srm.qualityhr.pages.LeavePage.applyLeave(LeavePage.java:46)
+at com.srm.qualityhr.tests.LeaveManagementTests.applyingLeaveWithPastDatesShowsError(LeaveManagementTests.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyingLeaveWithPastDatesShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.LeaveManagementTests@bccb269]" started-at="2026-04-14T21:10:45 IST" name="tearDown" finished-at="2026-04-14T21:10:45 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.LeaveManagementTests@bccb269]" started-at="2026-04-14T21:10:45 IST" name="setUp" finished-at="2026-04-14T21:10:46 IST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.srm.qualityhr.tests.LeaveManagementTests@bccb269]" started-at="2026-04-14T21:10:46 IST" name="loginToApplication" finished-at="2026-04-14T21:10:54 IST" duration-ms="8282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="navigateApplyLeaveAndVerifyRecord()[pri:0, instance:com.srm.qualityhr.tests.LeaveManagementTests@bccb269]" started-at="2026-04-14T21:10:54 IST" name="navigateApplyLeaveAndVerifyRecord" finished-at="2026-04-14T21:11:05 IST" duration-ms="10303" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96166c499ca0c2fe70782bed39f3d42f, sendKeysToElement {id=f.37DF523C2C6A06A65C5A5E6AAA177838.d.41EBDC678AA3ECC4B20869F24545FDAD.e.122, value=[Ljava.lang.CharSequence;@314f59b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50737}, goog:processID: 224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50737/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (96166c499ca0c2fe70782bed39f3d42f)] -> xpath: //label[normalize-space()='Leave Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]]
+Session ID: 96166c499ca0c2fe70782bed39f3d42f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96166c499ca0c2fe70782bed39f3d42f, sendKeysToElement {id=f.37DF523C2C6A06A65C5A5E6AAA177838.d.41EBDC678AA3ECC4B20869F24545FDAD.e.122, value=[Ljava.lang.CharSequence;@314f59b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50737}, goog:processID: 224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50737/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (96166c499ca0c2fe70782bed39f3d42f)] -> xpath: //label[normalize-space()='Leave Type']/../following-sibling::div//div[contains(@class,'oxd-select-text')]]
+Session ID: 96166c499ca0c2fe70782bed39f3d42f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at com.srm.qualityhr.pages.BasePage.selectDropdownWithKeyboard(BasePage.java:102)
+at com.srm.qualityhr.pages.LeavePage.applyLeave(LeavePage.java:46)
+at com.srm.qualityhr.tests.LeaveManagementTests.navigateApplyLeaveAndVerifyRecord(LeaveManagementTests.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateApplyLeaveAndVerifyRecord -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.LeaveManagementTests@bccb269]" started-at="2026-04-14T21:11:05 IST" name="tearDown" finished-at="2026-04-14T21:11:05 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.qualityhr.tests.LeaveManagementTests -->
+    </test> <!-- Leave Management Tests -->
+    <test started-at="2026-04-14T21:11:05 IST" name="User Role Management Tests" finished-at="2026-04-14T21:11:42 IST" duration-ms="36724">
+      <class name="com.srm.qualityhr.tests.UserRoleManagementTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.UserRoleManagementTests@3c3d9b6b]" started-at="2026-04-14T21:11:05 IST" name="setUp" finished-at="2026-04-14T21:11:06 IST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.srm.qualityhr.tests.UserRoleManagementTests@3c3d9b6b]" started-at="2026-04-14T21:11:06 IST" name="loginToApplication" finished-at="2026-04-14T21:11:22 IST" duration-ms="15288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createVerifyAndDeleteSystemUser()[pri:0, instance:com.srm.qualityhr.tests.UserRoleManagementTests@3c3d9b6b]" started-at="2026-04-14T21:11:22 IST" name="createVerifyAndDeleteSystemUser" finished-at="2026-04-14T21:11:39 IST" duration-ms="17233" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98ada7d090d3525415d617e4106d2c09, sendKeysToElement {id=f.80409851DEB21123601BF2836722728F.d.085555999E102F34F851D0F342FBF769.e.196, value=[Ljava.lang.CharSequence;@4345fd45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54392}, goog:processID: 24348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54392/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (98ada7d090d3525415d617e4106d2c09)] -> xpath: (//label[normalize-space()='User Role']/../following-sibling::div//div[contains(@class,'oxd-select-text')])[1]]
+Session ID: 98ada7d090d3525415d617e4106d2c09]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=147.0.7727.55)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98ada7d090d3525415d617e4106d2c09, sendKeysToElement {id=f.80409851DEB21123601BF2836722728F.d.085555999E102F34F851D0F342FBF769.e.196, value=[Ljava.lang.CharSequence;@4345fd45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: C:\Users\Deepika\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54392}, goog:processID: 24348, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54392/devtoo..., se:cdpVersion: 147.0.7727.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (98ada7d090d3525415d617e4106d2c09)] -> xpath: (//label[normalize-space()='User Role']/../following-sibling::div//div[contains(@class,'oxd-select-text')])[1]]
+Session ID: 98ada7d090d3525415d617e4106d2c09
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at com.srm.qualityhr.pages.BasePage.selectDropdownWithKeyboard(BasePage.java:102)
+at com.srm.qualityhr.pages.AdminPage.createSystemUser(AdminPage.java:38)
+at com.srm.qualityhr.tests.UserRoleManagementTests.createVerifyAndDeleteSystemUser(UserRoleManagementTests.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createVerifyAndDeleteSystemUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.UserRoleManagementTests@3c3d9b6b]" started-at="2026-04-14T21:11:39 IST" name="tearDown" finished-at="2026-04-14T21:11:42 IST" duration-ms="2689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.qualityhr.tests.UserRoleManagementTests -->
+    </test> <!-- User Role Management Tests -->
+    <test started-at="2026-04-14T21:11:42 IST" name="Form Validation Tests" finished-at="2026-04-14T21:12:27 IST" duration-ms="45085">
+      <class name="com.srm.qualityhr.tests.FormValidationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:11:42 IST" name="setUp" finished-at="2026-04-14T21:11:43 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:11:43 IST" name="loginToApplication" finished-at="2026-04-14T21:11:52 IST" duration-ms="8712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="addEmployeeFormShowsMandatoryFieldErrors()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:11:52 IST" name="addEmployeeFormShowsMandatoryFieldErrors" finished-at="2026-04-14T21:11:57 IST" duration-ms="5426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeFormShowsMandatoryFieldErrors -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:11:57 IST" name="tearDown" finished-at="2026-04-14T21:11:58 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:11:58 IST" name="setUp" finished-at="2026-04-14T21:11:59 IST" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:11:59 IST" name="loginToApplication" finished-at="2026-04-14T21:12:07 IST" duration-ms="8019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="dropdownFieldsShowOptionsAndMyInfoModuleLoads()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:12:07 IST" name="dropdownFieldsShowOptionsAndMyInfoModuleLoads" finished-at="2026-04-14T21:12:13 IST" duration-ms="5872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownFieldsShowOptionsAndMyInfoModuleLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:12:13 IST" name="tearDown" finished-at="2026-04-14T21:12:13 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:12:13 IST" name="setUp" finished-at="2026-04-14T21:12:14 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:12:14 IST" name="loginToApplication" finished-at="2026-04-14T21:12:21 IST" duration-ms="6874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="invalidDateFormatShowsValidation()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:12:21 IST" name="invalidDateFormatShowsValidation" finished-at="2026-04-14T21:12:27 IST" duration-ms="5853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDateFormatShowsValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.qualityhr.tests.FormValidationTests@394df057]" started-at="2026-04-14T21:12:27 IST" name="tearDown" finished-at="2026-04-14T21:12:27 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.qualityhr.tests.FormValidationTests -->
+    </test> <!-- Form Validation Tests -->
+  </suite> <!-- QualityHR Suite -->
+</testng-results>

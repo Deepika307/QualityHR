@@ -4,7 +4,7 @@ Selenium Java automation framework for the OrangeHRM live demo application, buil
 
 ## Project Objective
 
-This project was created for a Selenium automation hackathon to demonstrate:
+
 
 - Selenium WebDriver fundamentals
 - Page Object Model design
@@ -28,7 +28,7 @@ This project was created for a Selenium automation hackathon to demonstrate:
 - TestNG
 - WebDriverManager
 - ExtentReports
-- Jackson Databind
+
 
 ## Framework Features
 
@@ -148,17 +148,8 @@ admin.password=admin123
 
 ## How To Run
 
-### Run the full suite
 
-```bash
-mvn test
-```
 
-### Compile without running tests
-
-```bash
-mvn -DskipTests compile
-```
 
 ### Run from TestNG suite
 
@@ -193,13 +184,6 @@ After execution:
 - Test classes call only page methods
 - Some flows on the live OrangeHRM demo can be unstable because the site is public and dynamic
 
-## Future Improvements
-
-- Retry failed tests using `IRetryAnalyzer`
-- Headless execution profile
-- Better live-site dropdown handling
-- Excel-based or database-based test data
-- CI integration with Jenkins or GitHub Actions
 
 ## Author
 
